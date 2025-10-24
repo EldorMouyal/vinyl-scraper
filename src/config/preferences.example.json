@@ -1,0 +1,40 @@
+{
+  "discogs": {
+    "userAgent": "VinylScraper/1.0 +https://github.com/yourusername/vinyl-scraper",
+    "token": "YOUR_DISCOGS_TOKEN_HERE"
+  },
+  "telegram": {
+    "botToken": "YOUR_TELEGRAM_BOT_TOKEN_HERE",
+    "chatId": "YOUR_TELEGRAM_CHAT_ID_HERE"
+  },
+  "preferences": {
+    "artists": [
+      "Pink Floyd",
+      "The Beatles",
+      "Led Zeppelin",
+      "David Bowie",
+      "Miles Davis",
+      "Radiohead"
+    ],
+    "genres": [
+      "Rock",
+      "Progressive Rock",
+      "Jazz",
+      "Blues",
+      "Electronic",
+      "Classical"
+    ],
+    "albums": [
+      "The Dark Side of the Moon",
+      "Abbey Road",
+      "Kind of Blue",
+      "Pet Sounds",
+      "OK Computer"
+    ]
+  },
+  "scraping": {
+    "intervalHours": 12,
+    "maxRetries": 3,
+    "delayBetweenRequests": 1000
+  }
+}

@@ -1,0 +1,8 @@
+node_modules/
+dist/
+*.log
+vinyl_scraper.db
+.env
+
+# Keep the example but ignore the actual config file
+src/config/preferences.json

@@ -1,0 +1,41 @@
+{
+  "name": "vinyl-scraper",
+  "version": "1.0.0",
+  "description": "Monitor vinyl record listings from Discogs and get Telegram notifications",
+  "main": "dist/index.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vinyl", "discogs", "scraper", "telegram", "notifications", "records", "music"],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EldorMouyal/vinyl-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EldorMouyal/vinyl-scraper/issues"
+  },
+  "homepage": "https://github.com/EldorMouyal/vinyl-scraper#readme",
+  "type": "commonjs",
+  "dependencies": {
+    "@types/node": "^24.9.1",
+    "crypto-js": "^4.2.0",
+    "knex": "^3.1.0",
+    "node-cron": "^4.2.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "playwright": "^1.56.1",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.9.3",
+    "winston": "^3.18.3"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.11",
+    "@types/node-telegram-bot-api": "^0.64.11",
+    "@types/sqlite3": "^3.1.11"
+  }
+}
